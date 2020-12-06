@@ -12,14 +12,14 @@ int main()
 		
 		printf("Enter your number of wish below!\n");
 		
-		scanf("%i ", &number);
+		scanf("%d", &number);
 
 		x = num_to_words(number);
 		
 		printf("This is the converted Number you wrote: %s\n", x);
 
 		printf("If you wish to continue enter 1 (or any other number except 0) or if you wish to exit enter 0\n");
-		scanf("%i ", &test);
+		scanf("%i", &test);
 		if (test == 0)
 		{
 			running = 0;
